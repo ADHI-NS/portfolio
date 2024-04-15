@@ -1,0 +1,107 @@
+/* Body and Background */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Light Grayish Background */
+    color: #333; /* Dark Text Color */
+  }
+  
+  /* Header */
+  header {
+    background-color: #3498db; /* Blue Header */
+    color: #fff; /* White Text for Header */
+    padding: 15px;
+    text-align: center;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: #2980b9; /* Slightly Darker Blue Navigation */
+    color: #fff; /* White Text for Navigation */
+    padding: 10px;
+  }
+  
+  /* Links */
+  a {
+    color: #3498db; /* Blue Links */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Underline on Hover */
+  }
+  
+  /* Main Content Area */
+  main {
+    padding: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #34495e; /* Dark Blue Footer */
+    color: #fff; /* White Text for Footer */
+    padding: 15px;
+    text-align: center;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #2ecc71; /* Green Button */
+    color: #fff; /* White Text for Buttons */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #27ae60; /* Darker Green on Hover */
+  }
+  
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd; /* Light Gray Borders */
+    text-align: left;
+  }
+  
+  th {
+    background-color: #ecf0f1; /* Light Gray Header Background */
+  }
+  
+  /* Alerts/Notifications */
+  .alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #d35400; /* Dark Orange Border */
+    background-color: #e74c3c; /* Red Background */
+    color: #fff; /* White Text for Alerts */
+  }
+  
+  /* Forms */
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    main {
+      padding: 10px;
+    }
+  }
+  
